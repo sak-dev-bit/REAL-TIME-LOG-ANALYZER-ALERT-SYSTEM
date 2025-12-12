@@ -1,0 +1,27 @@
+{
+"server": {
+"port": 3000
+},
+"alerts": {
+"email": {
+"enabled": false,
+"from": "alerts@example.com",
+"smtp": {
+"host": "smtp.example.com",
+"port": 587,
+"secure": false,
+"auth": {
+"user": "your-smtp-user",
+"pass": "your-smtp-pass"
+}
+}
+},
+"sms": {
+"enabled": false,
+"accountSid": "TWILIO_ACCOUNT_SID",
+"authToken": "TWILIO_AUTH_TOKEN",
+"from": "+1234567890",
+"to": "+19876543210"
+}
+}
+}

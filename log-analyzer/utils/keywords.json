@@ -1,0 +1,9 @@
+[
+"error",
+"failed",
+"exception",
+"timeout",
+"unauthorized",
+"critical",
+"panic"
+]
